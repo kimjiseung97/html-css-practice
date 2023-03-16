@@ -1,0 +1,125 @@
+@import url('common.css');
+
+
+#wrapper{
+    width: 95%;
+    margin: 0 auto;
+    background: #ccc;
+}
+#wrapper header{
+    background: orange;
+}
+
+#wrapper header h1{
+    font-size: 4.0em;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#wrapper header h1 span{
+    display: block;
+    font-size: 15px;
+    width: fit-content;
+    margin: 15px auto 0;
+}
+
+#wrapper header .stit{
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+}
+
+.container .side-menu{
+    /* background: red; */
+    float: left;
+    width: 25%;
+    height: 700px;
+    background: #fff;
+}
+.container .side-menu h3{
+    background: darkred;
+    padding: 15px;
+    font-weight: 700;
+    color: white;
+}
+.container .side-menu ul li{
+    padding: 15px;
+    font-size: 0.9em;
+    font-weight: 700; 
+    text-decoration: underline;
+}
+
+
+.container .main-content{
+    width: 50%;
+    float: left;
+    margin: 5px 0;
+}
+
+.container .banner{
+    /* background: blue; */
+    width: 25%;
+    float: right;
+    height: 700px;
+    background: #fff;
+    padding: 15px;
+}
+.container .banner li,h3{
+    margin-bottom: 15px;
+}
+.container .banner h3 span{
+    display: block;
+    margin-bottom: 10px;
+}
+.container .link li span{
+    display: block;
+}
+.container .banner .all{
+    color: #ccc;
+    font-weight: 700;
+}
+.container .banner .love{
+    color: orange;
+    font-weight: 700;
+}
+.container .banner h3 strong{
+    font-weight: 700;
+}
+.container .banner .all,.love{
+    text-decoration: underline;
+}
+
+
+
+.container .main-content .art-piece{
+    margin-top: 15px;
+    padding: 5px;
+}          
+
+
+.container .main-content .art-piece .title{
+    background: midnightblue; 
+    font-weight: 700;
+    padding: 5px;
+    color: #ccc;
+}
+
+.container .main-content .art-piece .artist{
+    font-weight: 700;
+    margin-top: 15px;
+}
+.container .main-content .art-piece .detail{
+    margin-top: 15px;
+    font-size: 0.7em;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: darkblue;
+}
